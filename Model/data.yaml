@@ -1,0 +1,9 @@
+# Paths (relative to the location of this YAML file)
+path: /content/drive/MyDrive/Sriram/Garbage_folder  # "." means the current directory (where data.yaml is stored)
+train: train/images       # No "../" needed if files are in the same parent folder
+val: val/images
+test: test/images
+
+# Number of classes and their names
+nc: 6
+names: ['Metal', 'Paper', 'Plastic', 'Random Trash', 'cardboard', 'glass']
